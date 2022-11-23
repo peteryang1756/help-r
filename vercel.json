@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { 
+      "source": "/",
+      "destination": "https://help.ssangyongsports.org",
+      "permanent": true
+    },
+    { 
+      "source": "/:path*",
+      "destination": "https://help.ssangyongsports.org/:path*",
+      "permanent": true
+    }
+  ]
+}
